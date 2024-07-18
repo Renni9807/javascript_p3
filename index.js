@@ -141,11 +141,11 @@ resetGame(); // Initialize the game
 // }
 
 // function addNewCard() {
-//     if (sum > 20) {
-
-//     }
 //     let newCard = Math.floor(Math.random() * 10 + 2);
 //     sum += newCard;
+//     if (sum > 20) {
+//         newCardBtn.setAttribute('disabled', '');
+//     }
 //     cards.push(newCard);
 //     cardMessage.insertAdjacentText('beforeend', `${newCard} `);
 //     // for(let i = 0; i < cards.length; i++) {
